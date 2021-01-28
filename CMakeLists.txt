@@ -1,6 +1,6 @@
 #Rename 'project_name' to the name of the project
 
-make_minimum_required(VERSION 3.12)
+cmake_minimum_required(VERSION 3.12)
 include(pico_sdk_import.cmake)
 project(project_name)
 pico_sdk_init()

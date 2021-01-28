@@ -4,6 +4,13 @@ read -p "Project Name: " NAME
 echo "~ Creating folder structure"
 mkdir $NAME
 cd $NAME
+mkdir build
+
+echo "~ Adding build script"
+echo "cd build 
+cmake ..
+make -j8" > build.sh
+chmod +x build.sh
 
 cp $PICO_SDK_PATH/external/pico_sdk_import.cmake .
 
@@ -15,3 +22,4 @@ curl -sO https://raw.githubusercontent.com/matty0005/pi-pico-templates/main/CMak
 sed -i '' "s/project_name/$NAME/g" CMakeLists.txt
 
 echo "~ Done"
+echo "~ run './build.sh' to build"
