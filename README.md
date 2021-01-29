@@ -4,8 +4,10 @@ Starting templates for projects
 ## Prerequisites
 Please make sure you have both `cmake` and `gcc-arm-none-eabi` installed.
 
-### Linux 
-`sudo apt install cmake gcc-arm-none-eabi`
+### Linux / WSL (Windows)
+```
+sudo apt install cmake gcc-arm-none-eabi
+```
  
 ### MacOS
 ```
@@ -13,9 +15,6 @@ brew install cmake
 brew tap ArmMbed/homebrew-formulae
 brew install arm-none-eabi-gcc
 ```
-### Windows
-This script wont work on native windows, so it is suggested that you run this on WSL.
-
 
 # Usage
 If you have the pico-sdk installed and have the `PICO_SDK_PATH` set, then you can ignore this first step
