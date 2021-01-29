@@ -3,7 +3,7 @@ echo "~ Cloning SDK from Gihub"
 git clone https://github.com/raspberrypi/pico-sdk
 
 # Get full directory of the sdk
-SDKDIR=pwd
+SDKDIR=$(pwd)
 
 if [ -n "`$SHELL -c 'echo $ZSH_VERSION'`" ]; then
    SHELLTYPE=~/.zshrc
