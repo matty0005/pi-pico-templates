@@ -1,5 +1,7 @@
 # pi-pico-templates
-Starting templates for projects
+Starting templates/boilerplate code for projects using the Raspberry Pi Pico. 
+
+By no means are these scripts complete, but hopefully will reduce the amount of setup required.
 
 ## Prerequisites
 Please make sure you have both `cmake` and `gcc-arm-none-eabi` installed.
