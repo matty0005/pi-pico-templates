@@ -29,3 +29,6 @@ curl https://raw.githubusercontent.com/matty0005/pi-pico-templates/main/download
 
 Once downloaded, run `./create.sh` in the current directory, and it will prompt you for a Project name. 
 
+
+To compile the program, run `./build.sh` in the project directory to build it. It will output all the necessary files as well as the `.uf2` file which you can copy over to the pico directly
+
