@@ -13,6 +13,8 @@ brew install cmake
 brew tap ArmMbed/homebrew-formulae
 brew install arm-none-eabi-gcc
 ```
+### Windows
+This script wont work on native windows, so it is suggested that you run this on WSL.
 
 
 # Usage
@@ -21,8 +23,10 @@ If you have the pico-sdk installed and have the `PICO_SDK_PATH` set, then you ca
 curl https://raw.githubusercontent.com/matty0005/pi-pico-templates/main/setup.sh | bash
 ```
 
-To create a project, either download `create.sh` from this repo, or use the following command
+To create a project, either download `create.sh` from this repo, or use the following command to download `create.sh`
 ```
-curl https://raw.githubusercontent.com/matty0005/pi-pico-templates/main/create.sh | bash
+curl https://raw.githubusercontent.com/matty0005/pi-pico-templates/main/download.sh | bash
 ```
+
+Once downloaded, run `./create.sh` in the current directory, and it will prompt you for a Project name. 
 
